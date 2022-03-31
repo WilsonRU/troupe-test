@@ -4,6 +4,7 @@
 ```
 v8.6.11
 ```
+Foi escolhido o laravel, pela documentação e pela minha experiencia no desenvolvimento.
 
 ### Requisitos
 
@@ -114,7 +115,6 @@ Retorno
     ]
 }
 ```
-```
 - DELETE /api/citizen/delete/{ID Do Cidadão}
 ```
 Retorno
@@ -122,7 +122,6 @@ Retorno
 	"message": "Successfully deleted"
 }
 ```
-
 ### Cadastrando um Cidadão pelo CLI
 
 - Execute `php artisan create:citizen` e siga as intruções.
